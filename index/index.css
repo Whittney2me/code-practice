@@ -257,12 +257,12 @@ nav ul a:hover {
 /*-- About Page --------------------------*/
 
 .about {
-  font-family: 'Oxygen';
-  display: inline-block;
+	font-family: 'Oxygen';
+  display: block;
   box-sizing: border-box;
   color: #292929;
-  margin-left: auto;
-  }
+	margin: auto;
+}
 
 .about img {
   display: block;
@@ -280,20 +280,23 @@ nav ul a:hover {
 }
 
 .about p {
-  font-size: 30px;
-  text-align: center;
-  padding: 20px 20px 0px 20px;
-  box-sizing: border-box;
-}
+	font-size: 30px;
+	text-align: center;
+	padding: 10px 0 50px;
+	box-sizing: border-box;
+	max-width: 950px;
+	margin: auto;
+	}
 
 /*-- Princess Page -----------------------------*/
 
 .princess {
-  font-family: 'Oxygen';
-  display: inline-block;
+	font-family: 'Oxygen';
+  display: block;
   box-sizing: border-box;
   color: #292929;
-  }
+	margin: auto;
+}
 
 .princess img {
   display: block;
@@ -311,18 +314,22 @@ nav ul a:hover {
 }
 
 .princess p {
-  font-size: 30px;
-  text-align: center;
-  padding: 20px 20px 0px 20px;
-  box-sizing: border-box;
-}
+	font-size: 30px;
+	text-align: center;
+	padding: 10px 0 50px;
+	box-sizing: border-box;
+	max-width: 950px;
+	margin: auto;
+	}
+
  /*-- Become a Princess Page -----------------*/
 
 .become {
   font-family: 'Oxygen';
-  display: inline-block;
+  display: block;
   box-sizing: border-box;
   color: #292929;
+	margin: auto;
 }
 
 .become img {
@@ -342,10 +349,168 @@ nav ul a:hover {
 
 
 .become p {
-  font-size: 30px;
-  text-align: center;
-  padding: 20px 20px 50px 20px;
-  box-sizing: border-box;
-  display: block;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px 0 50px;
+	box-sizing: border-box;
+	max-width: 950px;
+	margin: auto;
+}
 
+/*-- Hired Bits Hired Page------------------------------------*/
+.Hired {
+  font-family: 'Oxygen';
+  display: block;
+  box-sizing: border-box;
+  color: #292929;
+  margin: auto;
+}
+
+
+input[type=sign-up], select {
+    width: 65%;
+    padding: 12px 20px;
+    margin: auto;
+    display: block;
+    border: 1px solid #696969 ;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+    font-family: 'Oxygen';
+    padding-top: 10px;
+    font-size: 25px;
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+input[type=submit] {
+  width: 30%;
+  margin: auto;
+  border: 2px solid #fda;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  display: block;
+  box-sizing: border-box;
+  font-family: 'Sacramento';
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  min-width: 130px;
+  background: none;
+  box-shadow: 0 0 100px #fda;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(248,248,255,0.95);
+    color:#fda;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+form {
+  margin: auto;
+  padding: 50px;
+  display: block;
+  box-sizing: border-box;
+  padding-bottom: 74px;
+}
+
+#age {
+  font-family: 'Oxygen';
+  margin-top: 20px;
+}
+
+#princess {
+  font-family: 'Oxygen';
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#hours {
+  font-family: 'Oxygen';
+  margin-top: 20px;
+}
+
+#children {
+  font-family: 'Oxygen';
+  margin-top: 20px;
+}
+
+.Sign-In {
+  border-radius: 5px;
+  background-color: none;
+  padding: 20px;
+  font-family: 'Oxygen';
+  font-size: 25px;
+  margin: auto;
+}
+
+.Sign-In .test  {
+  width:15%;
+  padding: 12px 20px;
+  margin: 0px 35px 0px 0px;
+  display: inline-block;
+  border: 1px solid #696969;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Oxygen';
+}
+
+.Sign-In .submit {
+    width: 10%;
+    background-color: none;
+    color: white;
+    padding: 14px 20px;
+    margin: 0px 35px 0px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Oxygen';
+}
+
+.background h1 {
+	padding: 15px;
+	margin: auto;
+	text-align: center;
+}
+
+/*-- Input ---------------------------------*/
+
+input {
+  font-family: 'Oxygen';
+}
+
+input[type=text], select {
+    width: 65%;
+    padding: 12px 20px;
+    margin: 5px auto 15px;
+    display: block;
+    border: 1px solid #696969 ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #696969;
+}
+
+
+#country {
+  font-family: 'Oxygen';
+  margin-top: 5px;
+}
+
+/*-- sign-up --------------------------------*/
+
+.Sign-Up {
+    border-radius: 5px;
+    background-color: none;
+    padding: 20px;
+    font-family: 'Oxygen';
+    font-size: 25px;
 }
