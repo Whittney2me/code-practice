@@ -3,85 +3,130 @@
 <head>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="index.css">
-		<link href="https://fonts.googleapis.com/css?family=Stalemate" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css-fadeshow.min-2.css">
+	<link href="https://fonts.googleapis.com/css?family=Bad+Script|Clicker+Script|Fresca" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Stalemate" rel="stylesheet">
 	<script src="https://use.fontawesome.com/33f8217666.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=League+Script|Oxygen|Poiret+One|Quicksand|Sacramento" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="index.js"></script>
+	<script src="index.js" type="text/javascript"></script>
+	<script src="jquery.backstretch.min.js" type="text/javascript"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-101778671-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
 </head>
 <body>
 	<!-- Header ------------------------------------->
 
 <header>
 
-	<div class="menu-section">
+<div class="menu-section">
   <div class="menu-toggle">
     <div class="one"></div>
     <div class="two"></div>
     <div class="three"></div>
-  </div>
+	</div>
 	<nav>
 		<ul role="navigation" class="hidden">
-			<li><a href="index-sign-up.html">Sign-Up</a></li>
-			<li><a href="index-sign-up.html">Sign-In</a></li>
-			<li><a href="index.html#About-Us">About Us</a></li>
-			<li><a href="index.html#Our-Princesses">Our Princesses</a></li>
-			<li><a href="index.html#Become-a-Princess">Become a Princess</a></li>
+			<li><a href="index.html">home</a></li>
+			<li><a href="index-signin.html">sign in</a></li>
+			<li><a href="index-signup.html">sign up</a></li>
+			<li><a href="index-hired.html">hire a princess</a></li>
+			<li><a href="index-about.html#About-Us">about us</a></li>
+			<li><a href="index-about.html#Become-a-Princess">become a princess</a></li>
 		</ul>
 	</nav>
 </div>
 
-<div class="intro">
-	<div class="homepage">
-		<a href="index.html">Disney Sitters</a>
-			<p>Make Their Night Magical</p>
+<div class="navbar-2">
+	<a class="logo" href="index.html">Princess Sitters</a>
+	<div class="col-sm-4">
+		<a id="button" href="index-hired.html" class="fancy-btn">Hire a Princess</a>
 	</div>
-			<a href="index-hired.html" class="fancy-btn">Hire a Princess</a>
 </div>
-
 </header>
 
-<!-- About ---------------------------------------->
-<div class="background">
-	<div class="about">
-			<a name="About-Us"></a>
-			<div class="col-wide">
-				<div class="content-wrap">
-					<img src="https://a.dilcdn.com/bl/wp-content/uploads/sites/8/babble-voices/ana-flores-besos/files/disney-princesses/ariels-grotto1-624x345.png"  height="450px" width="900px">
-					<h3>About us</h3>
-						<hr>
-						<p>Disney Sitters wants to help all parents around the nation have a night to themselves while making sure their child is having their needs met, but also having a fun, safe night. Having a Disney Princess come and babysit will change their minds all together about having a babysitter. Our Princesses are fully ceritfied and trained in Child Care, as well as had some princess training courses to be as authentic as possible.</p>
-				</div>
-			</div>
-	</div>
+<div data-am-fadeshow="quick-nav prev-next-nav slide-counter autoplay ken-burns">
 
-	<div class="princess">
-		<a name="Our-Princesses"></a>
-			<img src="http://31.media.tumblr.com/7862fd2684c05624ed790f7dd64a13c3/tumblr_n7urzdSJoJ1trf71to1_1280.jpg" height="450px" width="900px">
-				<div class="col-wide">
-					<div class="content-wrap">
-						<h3>Our Princesses</h3>
-							<hr>
-							<p>Our Princesses are fully ceritfied and trained in Child Care, as well as had some princess training courses to be as authentic as possible. They come with hand-made, realistic costumes, hair and make-up</p>
-				</div>
-			</div>
-	</div>
+  <!-- Radio -->
+  <input type="radio" name="css-fadeshow" id="slide-1" />
+  <input type="radio" name="css-fadeshow" id="slide-2" />
+  <input type="radio" name="css-fadeshow" id="slide-3" />
 
-	<div class="become">
-		<a name="Become-a-Princess"></a>
-			<div class="col-wide">
-				<div class="content-wrap">
-					<img src="https://www.getawaytoday.com/content/blog/images/Merchandise/AllPrincesses.JPG" height="450px" width="900px">
-						<h3>Become a Princess</h3>
-							<hr>
-							<p>There are a few requirements to becoming a Princess, but fill out an application and read through carefully our pre-requisites and we woud love to have you as a part of our team. We offer full-time slots, where you can babysit up to 40 hours per week, or part-time working around 20 hours per week. We gather your contacts and connect you to potential clients through our website and you choose who, when and where.</p>
-				</div>
+  <!-- Slides -->
+  <div class="fs-slides">
+    <div class="fs-slide">
+      <div class="fs-slide-bg"></div>
+			<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 20px rgba(0,0,0,0.5);">
+				<h1 style="margin-top: 0; margin-bottom: 0.8vw; font-size: 5vw; font-weight: bold;">Stress Free</h1>
+				<p style="font-size: 2vw; font-weight: 100; margin-top: 0;">Search through Princesses from your area!</p>
 			</div>
+    </div>
+    <div class="fs-slide">
+      <div class="fs-slide-bg"></div>
+			<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 20px rgba(0,0,0,0.5);">
+				<h1 style="margin-top: 0; margin-bottom: 0.8vw; font-size: 5vw; font-weight: bold;">Wonderful Personalities</h1>
+				<p style="font-size: 2vw; font-weight: 100; margin-top: 0;">A fun, warm personality is <br> just one of the qualites <br> we expect fo our Princesses!</p>
+			</div>
+    </div>
+    <div class="fs-slide">
+      <div class="fs-slide-bg")></div>
+			<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 20px rgba(0,0,0,0.5);">
+				<h1 style="margin-top: 0; margin-bottom: 0.8vw; font-size: 5vw; font-weight: bold;">Highest Standards</h1>
+				<p style="font-size: 2vw; font-weight: 100; margin-top: 0;">Our Princesses have exstensive <br> background-checks to ensure <br> they're the best for the job!</p>
+			</div>
+    </div>
+  </div>
 
-	</div>
+  <!-- Quick Navigation -->
+  <div class="fs-quick-nav">
+    <label class="fs-quick-btn" for="slide-1"></label>
+    <label class="fs-quick-btn" for="slide-2"></label>
+    <label class="fs-quick-btn" for="slide-3"></label>
+  </div>
+
+  <!-- Prev Navigation -->
+  <div class="fs-prev-nav">
+    <label class="fs-prev-btn" for="slide-1"></label>
+    <label class="fs-prev-btn" for="slide-2"></label>
+    <label class="fs-prev-btn" for="slide-3"></label>
+  </div>
+
+  <!-- Next Navigation -->
+  <div class="fs-next-nav">
+    <label class="fs-next-btn" for="slide-1"></label>
+    <label class="fs-next-btn" for="slide-2"></label>
+    <label class="fs-next-btn" for="slide-3"></label>
+  </div>
+
+  <!-- Slide Counter (only one required) -->
+  <div class="fs-slide-counter">
+    <span class="fs-slide-counter-current"></span>/<span class="fs-slide-counter-total"></span>
+  </div>
+
 </div>
 
+<!-- Princess Preview------------------------------>
+<div class="container">
+	<div class="imgbar">
+		<div class="img1" id="first">
+		</div>
+		<div class="img2" id="second">
+		</div>
+		<div class="img3" id="third">
+		</div>
+	</div>
+	<h1>Fully certified, Local Princesses</h1>
+</div>
+
+<!-- Footer --------------------------------------->
 <footer class="contact-info">
 	<h2>Contact Us and <br>
 		Follow Us on Social Media!</h2>

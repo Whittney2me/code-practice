@@ -3,48 +3,60 @@
 <head>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="index.css">
-		<link href="https://fonts.googleapis.com/css?family=Stalemate" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css-fadeshow.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Bad+Script|Clicker+Script|Fresca" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Stalemate" rel="stylesheet">
 	<script src="https://use.fontawesome.com/33f8217666.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=League+Script|Oxygen|Poiret+One|Quicksand|Sacramento" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="index.js"></script>
+	<script src="index.js" type="text/javascript"></script>
+	<script src="jquery.backstretch.min.js" type="text/javascript"></script>
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-101778671-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
 </head>
 <body>
 	<!-- Header ------------------------------------->
 
 <header>
 
-	<div class="menu-section">
+<div class="menu-section">
   <div class="menu-toggle">
     <div class="one"></div>
     <div class="two"></div>
     <div class="three"></div>
-  </div>
+	</div>
 	<nav>
 		<ul role="navigation" class="hidden">
-			<li><a href="index-sign-up.html">Sign-Up</a></li>
-			<li><a href="index-sign-up.html">Sign-In</a></li>
-			<li><a href="index.html#About-Us">About Us</a></li>
-			<li><a href="index.html#Our-Princesses">Our Princesses</a></li>
-			<li><a href="index.html#Become-a-Princess">Become a Princess</a></li>
+			<li><a href="index.html">home</a></li>
+			<li><a href="index-signin.html">sign in</a></li>
+			<li><a href="index-signup.html">sign up</a></li>
+			<li><a href="index-hired.html">hire a princess</a></li>
+			<li><a href="index-about.html#About-Us">about us</a></li>
+			<li><a href="index-about.html#Become-a-Princess">become a princess</a></li>
 		</ul>
 	</nav>
 </div>
 
-<div class="intro">
-	<div class="homepage">
-		<a href="index.html">Disney Sitters</a>
-			<p>Make Their Night Magical</p>
+<div class="navbar-2">
+	<a class="logo" href="index.html">Princess Sitters</a>
+	<div class="col-sm-4">
+		<!-- <a id="button" href="index-hired.html" class="fancy-btn">Hire a Princess</a> -->
 	</div>
-			<!-- <a href="index-hired.html" class="fancy-btn">Hire a Princess</a> -->
 </div>
 
 </header>
 
 <div class="background">
 	<div class="Hired">
-	  <form action="/action_page.php">
+	  <form action="results.html" method="post">
 	  <label for="range">Age Range</label>
 	    <select id="age" name="Age Range">
 	      <option value="toddler">6mo-12mo</option>
@@ -69,7 +81,7 @@
 	      <option value="4-hour">4+</option>
 	    </select>
 
-	  <label for="princesses">Desired Princess</label>
+	 <label for="princesses">Desired Princess</label>
 	    <select id="princess" name="Desired Princess">
 	      <option value="rapunzel">Rapunzel</option>
 	      <option value="cinderella">Cinderella</option>
