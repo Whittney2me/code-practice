@@ -1,57 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<link rel="stylesheet" type="text/css" href="css-fadeshow.min-2.css">
-	<link href="https://fonts.googleapis.com/css?family=Bad+Script|Clicker+Script|Fresca" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Stalemate" rel="stylesheet">
-	<script src="https://use.fontawesome.com/33f8217666.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=League+Script|Oxygen|Poiret+One|Quicksand|Sacramento" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="index.js" type="text/javascript"></script>
-	<script src="jquery.backstretch.min.js" type="text/javascript"></script>
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-101778671-1', 'auto');
-	  ga('send', 'pageview');
-	</script>
-</head>
-<body>
-	<!-- Header ------------------------------------->
-
-<header>
-
-<div class="menu-section">
-  <div class="menu-toggle">
-    <div class="one"></div>
-    <div class="two"></div>
-    <div class="three"></div>
-	</div>
-	<nav>
-		<ul role="navigation" class="hidden">
-			<li><a href="index.html">home</a></li>
-			<li><a href="index-signin.html">sign in</a></li>
-			<li><a href="index-signup.html">sign up</a></li>
-			<li><a href="index-hired.html">hire a princess</a></li>
-			<li><a href="index-about.html#About-Us">about us</a></li>
-			<li><a href="index-about.html#Become-a-Princess">become a princess</a></li>
-		</ul>
-	</nav>
-</div>
-
-<div class="navbar-2">
-	<a class="logo" href="index.html">Princess Sitters</a>
-	<div class="col-sm-4">
-		<a id="button" href="index-hired.html" class="fancy-btn">Hire a Princess</a>
-	</div>
-</div>
-</header>
+<?php require_once('../private/initialize.php'); ?>
+<?php $page_title = 'Home'; ?>
+<?php get_header(); ?>
 
 <div data-am-fadeshow="quick-nav prev-next-nav slide-counter autoplay ken-burns">
 
@@ -73,7 +22,7 @@
       <div class="fs-slide-bg"></div>
 			<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 20px rgba(0,0,0,0.5);">
 				<h1 style="margin-top: 0; margin-bottom: 0.8vw; font-size: 5vw; font-weight: bold;">Wonderful Personalities</h1>
-				<p style="font-size: 2vw; font-weight: 100; margin-top: 0;">A fun, warm personality is <br> just one of the qualites <br> we expect fo our Princesses!</p>
+				<p style="font-size: 2vw; font-weight: 100; margin-top: 0;">A fun, warm personality is <br> just one of the qualites <br> we expect for our Princesses!</p>
 			</div>
     </div>
     <div class="fs-slide">
@@ -126,19 +75,4 @@
 	<h1>Fully certified, Local Princesses</h1>
 </div>
 
-<!-- Footer --------------------------------------->
-<footer class="contact-info">
-	<h2>Contact Us and <br>
-		Follow Us on Social Media!</h2>
-
-	<!-- Social Media and Contact Links -->
-
-	<a href="mailto:wtwome13@gmail.com"><i class="fa fa-envelope"></i></a>
-	<a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-	<a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-	<a href="#" target="_blank"><i class="fa fa-facebook-official"></i></a>
-
-	<p><i class="fa fa-copyright" style="color: rgba(248,248,255,0.75)"></i> Copyright 2017 by Whittney Twomey</p>
-</footer>
-</body>
-</html>
+<?php get_footer(); ?>

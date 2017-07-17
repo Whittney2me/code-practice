@@ -4,17 +4,10 @@ $(document).ready(function() {
     $('.menu-section').toggleClass("on");
     $("nav ul").toggleClass('hidden');
   });
-  $(".navbar").backstretch([
-    "https://source.unsplash.com/YnfGtpt2gf4",
-    "https://source.unsplash.com/YnfGtpt2gf4",
-    "https://source.unsplash.com/OyBWImrAvBI"
-    ], {
-      fade: 750,
-      duration: 4000
+    $(window).load(function() {
+    $(".loader").fadeOut(2800);
+    $(".box").fadeIn(4000);
   });
-  $(".profile_pic").on('click', function() {
-    $("nav ul").toggleClass('hidden');
-  })
 });
 
 
