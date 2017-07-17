@@ -5,8 +5,8 @@ $(document).ready(function() {
     $("nav ul").toggleClass('hidden');
   });
   $(".navbar").backstretch([
-    "https://source.unsplash.com/YnfGtpt2gf4",
-    "https://source.unsplash.com/YnfGtpt2gf4",
+    "https://source.unsplash.com/lOaTye_A0GU",
+    "https://source.unsplash.com/5DLvpkwOpAs",
     "https://source.unsplash.com/OyBWImrAvBI"
     ], {
       fade: 750,
