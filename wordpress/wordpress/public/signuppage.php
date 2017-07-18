@@ -1,7 +1,7 @@
 <?php /* Template Name: Sign Up */ ?>
 <?php require_once('../private/initialize.php'); ?>
 <?php $page_title = 'Sign Up'; ?>
-<?php get_header(); ?>
+<?php get_navigation(); ?>
 
 <div class="sign-in-box">
 	<h1>Sign Up</h1>

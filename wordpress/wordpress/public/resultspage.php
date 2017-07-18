@@ -1,7 +1,7 @@
 <?php /* Template Name: Results Page */ ?>
 <?php require_once('../private/initialize.php'); ?>
 <?php $page_title = 'Results'; ?>
-<?php get_header(); ?>
+<?php get_navigation(); ?>
 
 <a class="back" href="http://138.197.204.229/hirepage/"><i class="fa fa-chevron-left"></i></a>
 
