@@ -1,6 +1,30 @@
 <?php /* Template Name: Sign In */ ?>
 <?php require_once('../private/initialize.php'); ?>
 <?php $page_title = 'Sign In'; ?>
+<?php
+
+$email = h($_POST['email']);
+if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email))
+{
+    die("Please enter a valid address!");
+}
+$password = check_input($_POST['sign-in-pword'], "Please enter a password!");
+?>
+
+<?php
+function check_input($data, $problem='')
+{
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = h($data);
+    if ($problem && strlen($data) == 0)
+    {
+        show_error($problem);
+    }
+    return $data;
+}
+
+?>
 <?php get_navigation(); ?>
 
 <div class="sign-in-box">

@@ -7,10 +7,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Bad+Script|Clicker+Script|Fresca" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Stalemate" rel="stylesheet">
 	<link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_site_url(); ?>/wp-content/themes/princesstheme/css-fadeshow.min-2.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_site_url(); ?>/wp-content/themes/princesstheme/load.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_site_url(); ?>/wp-content/themes/princesstheme/public/stylesheets/css-fadeshow.min-2.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_site_url(); ?>/wp-content/themes/princesstheme/public/stylesheets/load.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="<?php echo get_site_url(); ?>/wp-content/themes/princesstheme/index.js"></script>
+	<script type="text/javascript" src="<?php echo get_site_url(); ?>/wp-content/themes/princesstheme/public/stylesheets/index.js"></script>
 	<script src="https://use.fontawesome.com/33f8217666.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=League+Script|Oxygen|Poiret+One|Quicksand|Sacramento" rel="stylesheet">
 </head>

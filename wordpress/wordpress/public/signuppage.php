@@ -1,6 +1,43 @@
 <?php /* Template Name: Sign Up */ ?>
 <?php require_once('../private/initialize.php'); ?>
 <?php $page_title = 'Sign Up'; ?>
+<?php
+$firstname = check_input($_POST['firstname']);
+if (preg_match("/\s/",$firstname))
+{
+    die("Please enter your first name here!");
+}
+$lastname = check_input($_POST['lastname']);
+if (preg_match("/\s/",$lastname))
+{
+    die("Please enter your last name here!");
+}
+$email = h($_POST['email']);
+if (preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email))
+{
+    die("Please enter a valid address!");
+}
+$password = check_input($_POST['sign-up-pword'], "Please enter a password!");
+$confirm = check_input($_POST['confirm-pword'], "Passwords aren't the same!");
+if ($_POST['$password'] === $_POST['$confirm']) {
+  //success
+} else {
+  echo "Passwords aren't the same!";
+}
+
+function check_input($data, $problem='')
+{
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = h($data);
+    if ($problem && strlen($data) == 0)
+    {
+        show_error($problem);
+    }
+    return $data;
+}
+
+?>
 <?php get_navigation(); ?>
 
 <div class="sign-in-box">
