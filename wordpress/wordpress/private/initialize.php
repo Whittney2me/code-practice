@@ -1,4 +1,5 @@
 <?php
+ob_start(); //output buffering is turned on
 
 // Assgined file paths to PHP constants
 //__FILE__ returns to the current path to this file

@@ -30,7 +30,7 @@ function check_input($data, $problem='')
 <div class="sign-in-box">
 	<h1>Sign in</h1>
 		<div class="Sign-In">
-		  <form form action="" method="post">
+		  <form action="" method="post">
 		    <input type="text" id="sign-in-email" name="sign-in-email" placeholder="Email">
 		    <input type="text" id="sign-in-pword" name="sign-in-pword" placeholder="Password">
 		    <input type="submit" value="Sign In">
