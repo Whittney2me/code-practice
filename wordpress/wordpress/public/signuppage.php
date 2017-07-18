@@ -3,38 +3,35 @@
 <?php $page_title = 'Sign Up'; ?>
 <?php
 $firstname = check_input($_POST['firstname']);
-if (preg_match("/\s/",$firstname))
-{
-    die("Please enter your first name here!");
-}
-$lastname = check_input($_POST['lastname']);
-if (preg_match("/\s/",$lastname))
-{
-    die("Please enter your last name here!");
-}
-$email = h($_POST['email']);
-if (preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email))
-{
-    die("Please enter a valid address!");
-}
-$password = check_input($_POST['sign-up-pword'], "Please enter a password!");
-$confirm = check_input($_POST['confirm-pword'], "Passwords aren't the same!");
-if ($_POST['$password'] === $_POST['$confirm']) {
-  //success
+
+if (preg_match("/\s/",$firstname)) {
+  die("Please enter your first name here!");
 } else {
-  echo "Passwords aren't the same!";
+  echo "Success!"
 }
 
-function check_input($data, $problem='')
-{
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = h($data);
-    if ($problem && strlen($data) == 0)
-    {
-        show_error($problem);
-    }
-    return $data;
+$lastname = check_input($_POST['lastname']);
+if (preg_match("/\s/",$lastname)) {
+  die("Please enter your last name here!");
+} else {
+  echo "Success!"
+}
+
+$email = h($_POST['email']);
+if (preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email)) {
+  die("Please enter a valid address!");
+} else {
+  echo "Success!"
+}
+
+$password = check_input($_POST['sign-up-pword'], "Please enter a password!");
+
+$confirm = check_input($_POST['confirm-pword']);
+
+if ($_POST['$password'] === $_POST['$confirm']) {
+  echo "Success!";
+} else {
+  echo "Passwords aren't the same!";
 }
 
 ?>

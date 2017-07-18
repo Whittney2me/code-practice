@@ -9,9 +9,7 @@ if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email))
     die("Please enter a valid address!");
 }
 $password = check_input($_POST['sign-in-pword'], "Please enter a password!");
-?>
 
-<?php
 function check_input($data, $problem='')
 {
     $data = trim($data);
