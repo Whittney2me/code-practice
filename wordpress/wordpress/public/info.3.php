@@ -1,5 +1,5 @@
 <?php /* Template Name: CustomPageT8 */ ?>
-<?php require_once('../private/initialize.php'); ?>
+<?php require_once('../../../wp-includes/initialize.php'); ?>
 <?php $page_title = 'Information'; ?>
 
 <?php get_navigation(); ?>

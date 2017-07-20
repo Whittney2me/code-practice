@@ -1,4 +1,4 @@
-<?php require_once('../private/initialize.php'); ?>
+<?php require_once('../../../wp-includes/initialize.php'); ?>
 <?php $page_title = 'Home'; ?>
 <?php get_header(); ?>
 <?php get_fadeshow(); ?>

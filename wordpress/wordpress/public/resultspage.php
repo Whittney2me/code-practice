@@ -1,5 +1,5 @@
 <?php /* Template Name: Results Page */ ?>
-<?php require_once('../private/initialize.php'); ?>
+<?php require_once('../../../wp-includes/initialize.php'); ?>
 <?php $page_title = 'Results'; ?>
 <?php get_navigation(); ?>
 

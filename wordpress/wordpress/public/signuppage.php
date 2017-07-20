@@ -1,5 +1,5 @@
 <?php /* Template Name: Sign Up */ ?>
-<?php require_once('../private/initialize.php'); ?>
+<?php require_once('../../../wp-includes/initialize.php'); ?>
 <?php $page_title = 'Sign Up'; ?>
 <?php
 $firstname = check_input($_POST['firstname']);
