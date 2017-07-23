@@ -1,5 +1,5 @@
 <?php /* Template Name: Hire Page */ ?>
-<?php require_once('../../../wp-includes/initialize.php'); ?>
+<?php require_once('initialize.php'); ?>
 <?php $page_title = 'Hire Page'; ?>
 <?php get_header(); ?>
 

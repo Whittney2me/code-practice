@@ -1,5 +1,5 @@
 <?php /* Template Name: Sign In */ ?>
-<?php require_once('../../../wp-includes/initialize.php'); ?>
+<?php require_once('initialize.php'); ?>
 <?php $page_title = 'Sign In'; ?>
 <?php
 

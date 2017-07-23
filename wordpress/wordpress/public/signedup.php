@@ -1,8 +1,8 @@
 <?php
 
-require_once('../../../wp-includes/initialize.php');
+require_once('initialize.php');
 
-if(is_post_request()) {
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 $firstname = $_POST['firstname'] ?? '';
 $lastname = $_POST['lastname'] ?? '';

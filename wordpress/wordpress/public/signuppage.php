@@ -1,5 +1,5 @@
 <?php /* Template Name: Sign Up */ ?>
-<?php require_once('../../../wp-includes/initialize.php'); ?>
+<?php require_once('initialize.php'); ?>
 <?php $page_title = 'Sign Up'; ?>
 <?php
 $firstname = check_input($_POST['firstname']);
@@ -17,7 +17,7 @@ if (preg_match("/\s/",$lastname)) {
   echo "Success!"
 }
 
-$email = h($_POST['email']);
+$email = htmlspecialchars($_POST['email']);
 if (preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email)) {
   die("Please enter a valid address!");
 } else {
