@@ -1,6 +1,4 @@
 <?php /* Template Name: Info Page */ ?>
-<?php require_once('initialize.php'); ?>
-<?php $page_title = 'Information'; ?>
 
 <?php get_navigation(); ?>
 <a class="back" href="http://138.197.204.229/results/"><i class="fa fa-chevron-left"></i></a>

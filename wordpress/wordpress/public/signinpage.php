@@ -1,6 +1,5 @@
 <?php /* Template Name: Sign In */ ?>
-<?php require_once('initialize.php'); ?>
-<?php $page_title = 'Sign In'; ?>
+
 <?php
 
 $email = h($_POST['email']);

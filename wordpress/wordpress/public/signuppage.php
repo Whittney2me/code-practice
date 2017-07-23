@@ -1,6 +1,5 @@
 <?php /* Template Name: Sign Up */ ?>
-<?php require_once('initialize.php'); ?>
-<?php $page_title = 'Sign Up'; ?>
+
 <?php
 $firstname = check_input($_POST['firstname']);
 

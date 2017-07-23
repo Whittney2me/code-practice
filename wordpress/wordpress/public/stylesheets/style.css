@@ -133,9 +133,7 @@ header {
 }
 
 .navbar-2 {
-	background-image: url("https://source.unsplash.com/FpaxwZ4apss");
-	background-position: center;
-	background-size: cover;
+	background-color: rgb(255,129,116);
 	padding-top: 5px;
 }
 

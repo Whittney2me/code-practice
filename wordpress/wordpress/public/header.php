@@ -29,20 +29,20 @@
 		<nav>
 			<ul role="navigation" class="hidden">
 				<li><a href="http://138.197.204.229//index.php">home</a></li>
-				<li><a href="http://138.197.204.229/sign-in/">sign in</a></li>
-				<li><a href="http://138.197.204.229/sign-up/">sign up</a></li>
-				<li><a href="http://138.197.204.229/hirepage/">hire a princess</a></li>
-				<li><a href="http://138.197.204.229/about/#About-Us">about us</a></li>
-				<li><a href="http://138.197.204.229/about/#Become-a-Princess">become a princess</a></li>
+				<li><a href="http://138.197.204.229//sign-in.php">sign in</a></li>
+				<li><a href="http://138.197.204.229//sign-up.php">sign up</a></li>
+				<li><a href="http://138.197.204.229//hirepage.php">hire a princess</a></li>
+				<li><a href="http://138.197.204.229//about.php#About-Us">about us</a></li>
+				<li><a href="http://138.197.204.229//about.php#Become-a-Princess">become a princess</a></li>
 			</ul>
 		</nav>
 	</div>
 
 
 <div class="navbar-2">
-	<a class="logo" href="http://138.197.204.229/index.php">Princess Sitters</a>
+	<a class="logo" href="http://138.197.204.229//index.php">Princess Sitters</a>
 	<div class="col-sm-4">
-		<a id="button" href="http://138.197.204.229/hirepage/" class="fancy-btn">Hire a Princess</a>
+		<a id="button" href="/hirepage.php" class="fancy-btn">Hire a Princess</a>
 	</div>
 </div>
 </header>

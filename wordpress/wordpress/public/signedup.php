@@ -1,7 +1,5 @@
 <?php
 
-require_once('initialize.php');
-
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 $firstname = $_POST['firstname'] ?? '';

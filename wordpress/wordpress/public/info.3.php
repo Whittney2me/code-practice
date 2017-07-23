@@ -1,6 +1,4 @@
 <?php /* Template Name: CustomPageT8 */ ?>
-<?php require_once('initialize.php'); ?>
-<?php $page_title = 'Information'; ?>
 
 <?php get_navigation(); ?>
 
