@@ -57,11 +57,10 @@
 
   <!-- Slide Counter (only one required) -->
   <div class="fs-slide-counter">
-    <span class="fs-slide-counter-current"></span>/<span class="fs-slide-counter-total"></span>
+    <span class="fs-slide-counter-current"></span><span class="fs-slide-counter-total"></span>
   </div>
 
 </div>
-
 
 <!-- Princess Preview------------------------------>
 <div class="container">
