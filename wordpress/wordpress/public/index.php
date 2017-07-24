@@ -1,5 +1,4 @@
-<?php require_once('initialize.php'); ?>
-<?php $page_title = 'Home'; ?>
+
 <?php get_header(); ?>
 
 <div data-am-fadeshow="quick-nav prev-next-nav slide-counter autoplay ken-burns">

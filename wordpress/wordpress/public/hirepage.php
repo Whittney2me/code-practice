@@ -1,4 +1,5 @@
 <?php /* Template Name: Hire Page */ ?>
+
 <?php get_header(); ?>
 
 <div class="background">
